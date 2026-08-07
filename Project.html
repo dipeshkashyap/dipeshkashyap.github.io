@@ -5,149 +5,451 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta
+        name="description"
+        content="Projects built by Dipesh Kashyap"
+    >
+
     <title>Projects | Dipesh Kashyap</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
+    <!-- HEADER -->
 
-        <h1>My Projects</h1>
+    <header class="site-header">
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="Profile.html">Profile</a>
-            <a href="Summary.html">Summary</a>
-            <a href="Education.html">Education</a>
-            <a href="Skills.html">Skills</a>
-            <a href="Experience.html">Experience</a>
-        </nav>
+        <div class="header-content">
+
+            <a class="brand" href="index.html">
+                Dipesh<span>Kashyap</span>
+            </a>
+
+            <nav class="navigation">
+
+                <a href="index.html">Home</a>
+
+                <a href="Profile.html">Profile</a>
+
+                <a href="Summary.html">Summary</a>
+
+                <a href="Education.html">Education</a>
+
+                <a href="Skills.html">Skills</a>
+
+                <a
+                    class="active"
+                    href="Project.html"
+                >
+                    Projects
+                </a>
+
+                <a href="Experience.html">Experience</a>
+
+            </nav>
+
+        </div>
 
     </header>
 
 
-    <main>
+    <!-- MAIN -->
 
-        <section>
+    <main class="projects-page">
 
-            <h2>My Project Journey</h2>
+        <!-- HERO -->
+
+        <section class="projects-hero">
+
+            <div>
+
+                <p class="section-label">
+                    MY WORK
+                </p>
+
+                <h1>
+                    Things I've
+                    <span>built.</span>
+                </h1>
+
+                <p>
+                    Projects are where I turn what I learn
+                    into something practical. Here are some
+                    of the things I have built and explored.
+                </p>
+
+            </div>
+
+            <div class="project-counter">
+
+                <strong>03</strong>
+
+                <span>
+                    PROJECTS
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURED PROJECT -->
+
+        <section class="featured-project">
+
+            <div class="project-visual">
+
+                <div class="project-window">
+
+                    <div class="window-bar">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                    <div class="window-content">
+
+                        <div class="fake-heading">
+                            Dipesh<span>Kashyap</span>
+                        </div>
+
+                        <div class="fake-lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="fake-boxes">
+
+                            <div></div>
+                            <div></div>
+                            <div></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="project-glow"></div>
+
+            </div>
+
+
+            <div class="featured-info">
+
+                <p class="project-label">
+                    FEATURED PROJECT / 01
+                </p>
+
+                <h2>
+                    Personal
+                    Portfolio
+                </h2>
+
+                <p>
+                    A personal portfolio website designed
+                    to showcase my profile, education, skills,
+                    projects and learning journey.
+                </p>
+
+
+                <div class="tech-stack">
+
+                    <span>HTML</span>
+
+                    <span>CSS</span>
+
+                    <span>JavaScript</span>
+
+                    <span>GitHub Pages</span>
+
+                </div>
+
+
+                <div class="project-actions">
+
+                    <a
+                        href="#"
+                        class="project-button primary"
+                    >
+                        Live Demo ↗
+                    </a>
+
+                    <a
+                        href="#"
+                        class="project-button secondary"
+                    >
+                        GitHub ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- OTHER PROJECTS -->
+
+        <section class="projects-section">
+
+            <div class="projects-heading">
+
+                <p class="section-label">
+                    MORE PROJECTS
+                </p>
+
+                <h2>
+                    Projects I'm
+                    <span>working on.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECT 02 -->
+
+                <article class="project-card">
+
+                    <div class="project-card-number">
+                        02
+                    </div>
+
+                    <div class="project-card-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <p class="project-card-label">
+                        WEB DEVELOPMENT
+                    </p>
+
+                    <h3>
+                        Project Name
+                    </h3>
+
+                    <p>
+                        Add your project description here.
+                        Explain what the project does and
+                        what you learned while building it.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>HTML</span>
+
+                        <span>CSS</span>
+
+                    </div>
+
+                    <a
+                        href="#"
+                        class="project-card-link"
+                    >
+                        View Project →
+                    </a>
+
+                </article>
+
+
+                <!-- PROJECT 03 -->
+
+                <article class="project-card">
+
+                    <div class="project-card-number">
+                        03
+                    </div>
+
+                    <div class="project-card-icon">
+                        JS
+                    </div>
+
+                    <p class="project-card-label">
+                        EXPERIMENT
+                    </p>
+
+                    <h3>
+                        Project Name
+                    </h3>
+
+                    <p>
+                        Add another project here. It could
+                        be a JavaScript experiment, tool,
+                        website or any other project.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>JavaScript</span>
+
+                        <span>CSS</span>
+
+                    </div>
+
+                    <a
+                        href="#"
+                        class="project-card-link"
+                    >
+                        View Project →
+                    </a>
+
+                </article>
+
+
+                <!-- PROJECT 04 -->
+
+                <article class="project-card">
+
+                    <div class="project-card-number">
+                        04
+                    </div>
+
+                    <div class="project-card-icon">
+                        ✦
+                    </div>
+
+                    <p class="project-card-label">
+                        UPCOMING
+                    </p>
+
+                    <h3>
+                        Future Project
+                    </h3>
+
+                    <p>
+                        This space can be used for a project
+                        that you are planning or currently
+                        learning how to build.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>Learning</span>
+
+                        <span>Building</span>
+
+                    </div>
+
+                    <a
+                        href="#"
+                        class="project-card-link"
+                    >
+                        Coming Soon →
+                    </a>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- BUILDING PHILOSOPHY -->
+
+        <section class="project-philosophy">
+
+            <div>
+
+                <p class="section-label">
+                    MY APPROACH
+                </p>
+
+                <h2>
+                    Learn something.
+                    <span>Build something.</span>
+                </h2>
+
+            </div>
 
             <p>
-                Projects are an important part of my learning journey.
-                I build, experiment, improve and update my projects
-                as I learn new things.
+                I believe projects are one of the best ways
+                to understand technology. Every project gives
+                me a chance to experiment, make mistakes,
+                solve problems and improve.
             </p>
 
         </section>
 
 
-        <!-- Current Project -->
+        <!-- CTA -->
 
-        <section>
+        <section class="projects-cta">
 
-            <h2>Current Project</h2>
-
-            <article>
-
-                <h3>My Personal Portfolio</h3>
-
-                <p>
-                    I am building this website to document my
-                    learning journey, skills, projects and experiences.
-                </p>
-
-                <p>
-                    <strong>Status:</strong>
-                    In Progress
-                </p>
-
-                <p>
-                    <strong>Technologies:</strong>
-                    HTML
-                </p>
-
-                <a href="#">
-                    View Project
-                </a>
-
-            </article>
-
-        </section>
-
-
-        <!-- Completed Projects -->
-
-        <section>
-
-            <h2>Completed Projects</h2>
-
-            <article>
-
-                <h3>Project Name</h3>
-
-                <p>
-                    Write a short description of what you built
-                    and what you learned from it.
-                </p>
-
-                <p>
-                    <strong>Technologies:</strong>
-                    HTML, CSS
-                </p>
-
-                <p>
-                    <strong>Status:</strong>
-                    Completed
-                </p>
-
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                    View Project
-                </a>
-
-            </article>
-
-        </section>
-
-
-        <!-- Future Projects -->
-
-        <section>
-
-            <h2>Future Projects</h2>
-
-            <ul>
-
-                <li>Project idea 1</li>
-                <li>Project idea 2</li>
-                <li>Project idea 3</li>
-
-            </ul>
-
-        </section>
-
-
-        <!-- Learning Through Projects -->
-
-        <section>
-
-            <h2>What I Learn From Projects</h2>
-
-            <p>
-                Every project gives me an opportunity to practice,
-                solve problems, make mistakes and improve my skills.
+            <p class="section-label">
+                NEXT
             </p>
+
+            <h2>
+                Want to know
+                what I've done?
+            </h2>
+
+            <a
+                href="Experience.html"
+                class="button primary-button"
+            >
+                Explore My Experience →
+            </a>
 
         </section>
 
     </main>
 
 
+    <!-- FOOTER -->
+
     <footer>
 
-        <p>
-            © 2026 Dipesh Kashyap. All rights reserved.
-        </p>
+        <div class="footer-content">
+
+            <div>
+
+                <h3>
+                    Dipesh Kashyap
+                </h3>
+
+                <p>
+                    Learning • Building • Improving
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="Profile.html">
+                    Profile
+                </a>
+
+                <a href="Summary.html">
+                    Summary
+                </a>
+
+                <a href="Skills.html">
+                    Skills
+                </a>
+
+                <a href="Experience.html">
+                    Experience
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            © 2026 Dipesh Kashyap.
+            Built while learning.
+
+        </div>
 
     </footer>
 

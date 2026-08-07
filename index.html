@@ -5,24 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Dipesh Kashyap | Portfolio</title>
+    <meta
+        name="description"
+        content="Dipesh Kashyap - Developer, Learner and Builder"
+    >
+
+    <title>Dipesh Kashyap | Home</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- =========================
-         INTRO ANIMATION
-    ========================== -->
+    <!-- ==========================================
+         INTRO / LOADING ANIMATION
+    =========================================== -->
 
-    <div class="intro">
+    <div id="intro">
 
-        <div class="intro-logo">
-            <img src="DipeshKashyap.jpg" alt="Dipesh Kashyap">
+        <div class="intro-logo-wrap">
+            <img
+                src="DipeshKashyap.jpg"
+                alt="Dipesh Kashyap"
+                class="intro-logo"
+            >
         </div>
 
-        <h1 class="intro-name" aria-label="Dipesh Kashyap">
+        <div class="intro-name" aria-label="Dipesh Kashyap">
 
             <span>D</span>
             <span>i</span>
@@ -31,7 +40,7 @@
             <span>s</span>
             <span>h</span>
 
-            <span class="space">&nbsp;</span>
+            <span class="space"></span>
 
             <span>K</span>
             <span>a</span>
@@ -41,103 +50,329 @@
             <span>a</span>
             <span>p</span>
 
-        </h1>
+        </div>
 
     </div>
 
 
-    <!-- =========================
-         MAIN WEBSITE
-    ========================== -->
+    <!-- ==========================================
+         WEBSITE
+    =========================================== -->
 
     <div class="website">
 
-        <header>
+        <!-- HEADER -->
 
-            <img
-                src="DipeshKashyap.jpg"
-                alt="Dipesh Kashyap"
-                class="profile-image"
-            >
+        <header class="site-header">
 
-            <h1>Dipesh Kashyap</h1>
+            <div class="header-content">
 
-            <p>Developer • Learner • Builder</p>
+                <a
+                    class="brand"
+                    href="index.html"
+                >
+                    Dipesh<span>Kashyap</span>
+                </a>
 
-            <nav>
+                <nav class="navigation">
 
-                <a href="index.html">Home</a>
+                    <a
+                        class="active"
+                        href="index.html"
+                    >
+                        Home
+                    </a>
 
-                <a href="Profile.html">Profile</a>
+                    <a href="Profile.html">
+                        Profile
+                    </a>
 
-                <a href="Summary.html">Summary</a>
+                    <a href="Summary.html">
+                        Summary
+                    </a>
 
-                <a href="Education.html">Education</a>
+                    <a href="Education.html">
+                        Education
+                    </a>
 
-                <a href="Skills.html">Skills</a>
+                    <a href="Skills.html">
+                        Skills
+                    </a>
 
-                <a href="Project.html">Projects</a>
+                    <a href="Project.html">
+                        Projects
+                    </a>
 
-                <a href="Experience.html">Experience</a>
+                    <a href="Experience.html">
+                        Experience
+                    </a>
 
-            </nav>
+                </nav>
+
+            </div>
 
         </header>
 
 
+        <!-- MAIN -->
+
         <main>
+
+            <!-- HERO -->
 
             <section class="hero">
 
-                <p class="eyebrow">
-                    WELCOME TO MY PORTFOLIO
+                <div class="hero-content">
+
+                    <p class="hero-label">
+                        WELCOME TO MY PORTFOLIO
+                    </p>
+
+                    <h1 class="hero-title">
+                        Hi, I'm
+                        <span>Dipesh Kashyap.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        I am learning, building projects and
+                        improving my skills every day.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            class="button primary-button"
+                            href="Profile.html"
+                        >
+                            Explore My Profile
+                            <span>→</span>
+                        </a>
+
+                        <a
+                            class="button secondary-button"
+                            href="Project.html"
+                        >
+                            View Projects
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-image-wrapper">
+
+                    <div class="hero-ring"></div>
+
+                    <img
+                        class="hero-image"
+                        src="DipeshKashyap.jpg"
+                        alt="Dipesh Kashyap"
+                    >
+
+                </div>
+
+            </section>
+
+
+            <!-- JOURNEY -->
+
+            <section class="content-section reveal-section">
+
+                <div class="section-number">
+                    01
+                </div>
+
+                <div class="section-content">
+
+                    <p class="section-label">
+                        MY JOURNEY
+                    </p>
+
+                    <h2>
+                        Learning today.
+                        Building tomorrow.
+                    </h2>
+
+                    <p>
+                        This website is my personal space where
+                        I document my learning journey, education,
+                        skills, projects, experiences and ideas.
+                    </p>
+
+                    <a
+                        class="text-link"
+                        href="Summary.html"
+                    >
+                        Explore my journey →
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- SKILLS -->
+
+            <section class="content-section reveal-section">
+
+                <div class="section-number">
+                    02
+                </div>
+
+                <div class="section-content">
+
+                    <p class="section-label">
+                        SKILLS
+                    </p>
+
+                    <h2>
+                        Skills I'm learning
+                    </h2>
+
+                    <p>
+                        I am continuously learning new technical
+                        and soft skills and applying them through
+                        practical work.
+                    </p>
+
+                    <a
+                        class="text-link"
+                        href="Skills.html"
+                    >
+                        Explore my skills →
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- PROJECTS -->
+
+            <section class="projects-section reveal-section">
+
+                <div class="projects-heading">
+
+                    <div>
+
+                        <p class="section-label">
+                            PROJECTS
+                        </p>
+
+                        <h2>
+                            Things I'm building.
+                        </h2>
+
+                    </div>
+
+                    <a
+                        class="text-link"
+                        href="Project.html"
+                    >
+                        View all →
+                    </a>
+
+                </div>
+
+
+                <div class="project-grid">
+
+                    <article class="project-card">
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Personal Portfolio
+                        </h3>
+
+                        <p>
+                            My personal website documenting
+                            my skills, education, experience
+                            and projects.
+                        </p>
+
+                        <a href="Project.html">
+                            Explore →
+                        </a>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <span class="project-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Future Project
+                        </h3>
+
+                        <p>
+                            A new project that I will build
+                            as I continue learning and
+                            improving my development skills.
+                        </p>
+
+                        <a href="Project.html">
+                            Explore →
+                        </a>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <span class="project-number">
+                            03
+                        </span>
+
+                        <h3>
+                            More Coming
+                        </h3>
+
+                        <p>
+                            This section will grow as I
+                            create and publish more projects.
+                        </p>
+
+                        <a href="Project.html">
+                            Explore →
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- EXPERIENCE -->
+
+            <section class="experience-section reveal-section">
+
+                <p class="section-label">
+                    EXPERIENCE
                 </p>
 
                 <h2>
-                    Hello, I'm Dipesh 👋
+                    Every experience teaches something.
                 </h2>
 
                 <p>
-                    I am learning HTML, building projects
-                    and improving my skills every day.
+                    From school experiences to learning
+                    technical skills and working on projects,
+                    I am building my experience step by step.
                 </p>
 
-                <a class="button" href="Profile.html">
-                    Know More About Me
-                </a>
-
-            </section>
-
-
-            <section>
-
-                <h2>Explore My Journey</h2>
-
-                <p>
-                    Learn more about my education,
-                    experiences, projects, skills,
-                    interests and online profiles.
-                </p>
-
-                <a class="button" href="Summary.html">
-                    Explore My Journey
-                </a>
-
-            </section>
-
-
-            <section>
-
-                <h2>My Projects 🚀</h2>
-
-                <p>
-                    Projects are an important part of my
-                    learning journey. I build and update
-                    them as I learn new things.
-                </p>
-
-                <a class="button" href="Project.html">
-                    View My Projects
+                <a
+                    class="button primary-button"
+                    href="Experience.html"
+                >
+                    My Experience →
                 </a>
 
             </section>
@@ -145,19 +380,78 @@
         </main>
 
 
+        <!-- FOOTER -->
+
         <footer>
 
-            <p>
-                Learning, building and improving every day.
-            </p>
+            <div class="footer-content">
 
-            <p>
-                © 2026 Dipesh Kashyap
-            </p>
+                <div>
+
+                    <h3>
+                        Dipesh Kashyap
+                    </h3>
+
+                    <p>
+                        Learning • Building • Improving
+                    </p>
+
+                </div>
+
+                <div class="footer-links">
+
+                    <a href="Profile.html">
+                        Profile
+                    </a>
+
+                    <a href="Skills.html">
+                        Skills
+                    </a>
+
+                    <a href="Project.html">
+                        Projects
+                    </a>
+
+                    <a href="Experience.html">
+                        Experience
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="copyright">
+
+                © 2026 Dipesh Kashyap.
+                Built while learning.
+
+            </div>
 
         </footer>
 
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            document.body.classList.add("intro-active");
+
+            const intro = document.getElementById("intro");
+
+            setTimeout(function () {
+
+                intro.classList.add("hide-intro");
+
+                document.body.classList.remove("intro-active");
+
+                setTimeout(function () {
+                    intro.remove();
+                }, 900);
+
+            }, 4300);
+
+        });
+    </script>
 
 </body>
 
